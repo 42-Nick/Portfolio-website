@@ -1,0 +1,50 @@
+body{
+    background-color: black;   
+    margin: 0%;
+    border-left: #7C5EB5 solid 1vw;
+    border-right: #7C5EB5 solid 1vw;
+}
+.indexboxes{
+    flex-wrap: wrap;
+    display: flex;
+    max-width: 45%;
+    margin-top: 3%;
+    margin-left: 5%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.ibox1{
+    font-size: 3vh;
+    padding-left: 3%;
+    padding-right: 2%;
+    margin-bottom: 5%;
+    background-color: #31FFAF;
+}
+.ibox3{
+    font-size: 3vh;
+    padding-left: 3%;
+    padding-right: 2%;
+    margin-bottom: 5%;
+    background-color: #31FFAF;
+
+}.ibox5{
+    font-size: 3vh;
+    padding-left: 3%;
+    padding-right: 2%;
+    margin-bottom: 5%;
+    background-color: #31FFAF;
+}
+.ibox6{
+    background-image: url(/images/Resume-index.jpg);
+    width: 45%;   
+}
+header{
+    color: #46f9b4;
+    background-image: url(/images/hero1.jpg);
+    text-align: center;
+    padding: 15%;
+    background-position: center;
+    background-size: cover;
+    font-size: 5vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: #7C5EB5 10px 10px 25px;
+}
