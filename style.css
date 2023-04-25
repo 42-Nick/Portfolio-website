@@ -48,3 +48,47 @@ header{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-shadow: #7C5EB5 10px 10px 25px;
 }
+.otherboxes{
+    margin-top: 3%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: #46f9b4;
+}
+.pick{
+    background-color: #4A50AB;
+    font-size: 3vh;
+    width: 25%;
+}
+.toggle{
+    background-color: #4A50AB;
+    font-size: 3vh;
+    width: 25%;
+}
+.End{
+    background-color: #4A50AB;
+    width: 25%;
+}
+.End:hover{
+    background-color: #575ec1;
+}
+.End a{
+    color: #46f9b4;
+    text-decoration: none;
+    font-size: 3vh;
+    text-align: center;
+}
+.idoors{
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+.idoors img{
+    border: #46f9b4 solid 5px;
+    width: 13vw;
+    height: 50vh;
+}
