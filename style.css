@@ -7,7 +7,6 @@ body{
 .indexboxes{
     flex-wrap: wrap;
     display: flex;
-    max-width: 45%;
     margin-top: 3%;
     margin-left: 5%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -18,6 +17,22 @@ body{
     padding-right: 2%;
     margin-bottom: 5%;
     background-color: #31FFAF;
+    width: 45%;
+}
+.box1-2{
+    display: flex;
+}
+.ibox2{
+    width: 45%;   
+    flex-wrap: wrap;
+    display: flex;
+}
+.ibox2 img{
+    flex-wrap: wrap;
+    display: flex;
+    height: 25vh;
+    width: 22vw;
+    margin-left: 25%;
 }
 .ibox3{
     font-size: 3vh;
@@ -25,17 +40,48 @@ body{
     padding-right: 2%;
     margin-bottom: 5%;
     background-color: #31FFAF;
+    width: 45%;
+    height: 30vh;
 
-}.ibox5{
+}
+.box3-4{
+display: flex;
+}
+.ibox4{
+    width: 45%;
+    flex-wrap: wrap;
+    display: flex;
+}
+.ibox4 img{
+    flex-wrap: wrap;
+    display: flex;
+    height: 30vh;
+    width: 22vw;
+    margin-left: 25%;
+}
+.ibox5{
+    width: 45%;
     font-size: 3vh;
     padding-left: 3%;
     padding-right: 2%;
     margin-bottom: 5%;
     background-color: #31FFAF;
+    height: 25vh;
+}
+.box5-6{
+    display: flex;
 }
 .ibox6{
-    background-image: url(/images/Resume-index.jpg);
     width: 45%;   
+    flex-wrap: wrap;
+    display: flex;
+}
+.ibox6 img{
+    flex-wrap: wrap;
+    display: flex;
+    height: 25vh;
+    width: 22vw;
+    margin-left: 25%;
 }
 header{
     color: #46f9b4;
@@ -80,14 +126,14 @@ header{
     font-size: 3vh;
     text-align: center;
 }
-.idoors{
+.doors{
     flex-direction: row;
     flex-wrap: wrap;
     display: flex;
     justify-content: space-evenly;
     margin-top: 5%;
 }
-.idoors img{
+.doors img{
     border: #46f9b4 solid 5px;
     width: 13vw;
     height: 50vh;
