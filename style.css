@@ -8,16 +8,17 @@ body{
     flex-wrap: wrap;
     display: flex;
     margin-top: 3%;
-    margin-left: 5%;
+    /* margin-left: 6%; */
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .ibox1{
     font-size: 3vh;
-    padding-left: 3%;
-    padding-right: 2%;
+    padding-left: 3vw;
+    padding-right: 2vw;
     margin-bottom: 5%;
     background-color: #31FFAF;
-    width: 45%;
+    width: 45vw;
+    height: 30vh;
 }
 .box1-2{
     display: flex;
@@ -30,17 +31,17 @@ body{
 .ibox2 img{
     flex-wrap: wrap;
     display: flex;
-    height: 25vh;
-    width: 22vw;
-    margin-left: 25%;
+    height: 30vh;
+    width: 30vw;
+    margin-left: 6.3vw;
 }
 .ibox3{
     font-size: 3vh;
-    padding-left: 3%;
-    padding-right: 2%;
+    padding-left: 3vw;
+    padding-right: 2vw;
     margin-bottom: 5%;
     background-color: #31FFAF;
-    width: 45%;
+    width: 45vw;
     height: 30vh;
 
 }
@@ -56,17 +57,18 @@ display: flex;
     flex-wrap: wrap;
     display: flex;
     height: 30vh;
-    width: 22vw;
-    margin-left: 25%;
+    width: 30vw;
+    margin-left: 6.3vw;
 }
 .ibox5{
-    width: 45%;
+    width: 45vw;
     font-size: 3vh;
-    padding-left: 3%;
-    padding-right: 2%;
+    padding-left: 3vw;
+    padding-right: 2vw;
     margin-bottom: 5%;
     background-color: #31FFAF;
-    height: 25vh;
+    width: 45vw;
+    height: 30vh;
 }
 .box5-6{
     display: flex;
@@ -79,9 +81,9 @@ display: flex;
 .ibox6 img{
     flex-wrap: wrap;
     display: flex;
-    height: 25vh;
-    width: 22vw;
-    margin-left: 25%;
+    height: 30vh;
+    width: 30vw;
+    margin-left: 6.3vw;
 }
 header{
     color: #46f9b4;
@@ -99,7 +101,7 @@ header{
     flex-direction: row;
     flex-wrap: wrap;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     text-align: center;
     color: #46f9b4;
 }
@@ -130,11 +132,22 @@ header{
     flex-direction: row;
     flex-wrap: wrap;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 5%;
 }
 .doors img{
     border: #46f9b4 solid 5px;
     width: 13vw;
     height: 50vh;
+}
+.all{
+    width: 87.5%;
+    margin-left: 6.25%;
+}
+footer{
+    background-color: #4A50AB;
+    padding-bottom: 2%;
+    margin-top: 2%;
+    color: #46f9b4;
+    font-size: 2vh;
 }
