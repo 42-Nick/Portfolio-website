@@ -1,26 +1,31 @@
 body{
     background-color: black;   
     margin: 0%;
-    border-left: #7C5EB5 solid 1vw;
-    border-right: #7C5EB5 solid 1vw;
+}
+#particles-js{
+     z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
 }
 .indexboxes{
     flex-wrap: wrap;
     display: flex;
     margin-top: 3%;
-    /* margin-left: 6%; */
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .ibox1{
-    font-size: 3vh;
+    font-size: 5vh;
     padding-left: 3vw;
     padding-right: 2vw;
     margin-bottom: 5%;
     background-color: #31FFAF;
     width: 45vw;
-    height: 30vh;
 }
 .box1-2{
+    height: 40%;
     display: flex;
 }
 .ibox2{
@@ -31,22 +36,22 @@ body{
 .ibox2 img{
     flex-wrap: wrap;
     display: flex;
-    height: 30vh;
     width: 30vw;
     margin-left: 6.3vw;
+    margin-bottom:10% ;
 }
 .ibox3{
-    font-size: 3vh;
+    font-size: 4vh;
     padding-left: 3vw;
     padding-right: 2vw;
     margin-bottom: 5%;
     background-color: #31FFAF;
     width: 45vw;
-    height: 30vh;
 
 }
 .box3-4{
 display: flex;
+height: 40%;
 }
 .ibox4{
     width: 45%;
@@ -54,9 +59,9 @@ display: flex;
     display: flex;
 }
 .ibox4 img{
+    margin-bottom:10% ;
     flex-wrap: wrap;
     display: flex;
-    height: 30vh;
     width: 30vw;
     margin-left: 6.3vw;
 }
@@ -68,10 +73,10 @@ display: flex;
     margin-bottom: 5%;
     background-color: #31FFAF;
     width: 45vw;
-    height: 30vh;
 }
 .box5-6{
     display: flex;
+    height: 40%;
 }
 .ibox6{
     width: 45%;   
@@ -79,13 +84,43 @@ display: flex;
     display: flex;
 }
 .ibox6 img{
+    margin-bottom:10% ;
     flex-wrap: wrap;
     display: flex;
-    height: 30vh;
     width: 30vw;
     margin-left: 6.3vw;
 }
-header{
+.englishboxes{
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 3%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.egbox1{
+    padding-top: 1%;
+    font-size: 3vh;
+    padding-left: 3%;
+    padding-right: 2%;
+    margin-bottom: 5%;
+    background-color: #31FFAF;
+    width: 45%;
+}
+.eg1-2{
+    display: flex;
+    height: 40%;
+}
+.egbox2{
+    width: 45%;   
+    flex-wrap: wrap;
+    display: flex;
+}
+.egbox2 img{
+    flex-wrap: wrap;
+    display: flex;
+    width: 45%;
+    margin-left: 6.3vw;
+}
+.header1{
     color: #46f9b4;
     background-image: url(/images/hero1.jpg);
     text-align: center;
