@@ -17,7 +17,7 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .ibox1{
-    font-size: 5vh;
+    font-size: 6vh;
     padding-left: 3vw;
     padding-right: 2vw;
     margin-bottom: 5%;
@@ -25,7 +25,7 @@ body{
     width: 45vw;
 }
 .box1-2{
-    height: 40%;
+    max-height: 40%;
     display: flex;
 }
 .ibox2{
@@ -37,8 +37,8 @@ body{
     flex-wrap: wrap;
     display: flex;
     width: 30vw;
-    margin-left: 6.3vw;
-    margin-bottom:10% ;
+    margin-left: 8vw;
+    margin-bottom:10%;
 }
 .ibox3{
     font-size: 4vh;
@@ -63,11 +63,11 @@ height: 40%;
     flex-wrap: wrap;
     display: flex;
     width: 30vw;
-    margin-left: 6.3vw;
+    margin-left: 8vw;
 }
 .ibox5{
     width: 45vw;
-    font-size: 3vh;
+    font-size: 4.5vh;
     padding-left: 3vw;
     padding-right: 2vw;
     margin-bottom: 5%;
@@ -88,7 +88,7 @@ height: 40%;
     flex-wrap: wrap;
     display: flex;
     width: 30vw;
-    margin-left: 6.3vw;
+    margin-left: 8vw;
 }
 .englishboxes{
     flex-wrap: wrap;
@@ -125,6 +125,7 @@ height: 40%;
     background-image: url(/images/hero1.jpg);
     text-align: center;
     padding: 15%;
+    height: 45vh;
     background-position: center;
     background-size: cover;
     font-size: 5vh;
@@ -139,6 +140,7 @@ height: 40%;
     justify-content: space-between;
     text-align: center;
     color: #46f9b4;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .pick{
     background-color: #4A50AB;
@@ -181,8 +183,19 @@ height: 40%;
 }
 footer{
     background-color: #4A50AB;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
     margin-top: 2%;
     color: #46f9b4;
-    font-size: 2vh;
+    font-size: 2.5vh;
+    text-align: center;
+}
+footer h3{
+    padding-top: 1%;
+}
+footer a{
+    text-decoration: underline #7C5EB5;
+    color: #31FFAF;
+}
+footer a:hover{
+    color: #b4ffe2;
 }
