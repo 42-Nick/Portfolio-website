@@ -91,11 +91,12 @@ height: 40%;
     margin-left: 8vw;
 }
 .englishboxes{
-    flex-wrap: wrap;
-    display: flex;
-    margin-top: 3%;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+        margin-left: 5%;
+        flex-wrap: wrap;
+        display: flex;
+        margin-top: 3%;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
 .egbox1{
     padding-top: 1%;
     font-size: 3vh;
@@ -115,15 +116,52 @@ height: 40%;
     display: flex;
 }
 .egbox2 img{
+    margin-bottom:10% ;
     flex-wrap: wrap;
     display: flex;
+    width: 30vw;
+    margin-left: 8vw;
+    border: #575ec1 solid 5px;
+}
+.egbox3{
+     width: 45vw;
+    font-size: 3.5vh;
+    padding-left: 3vw;
+    padding-right: 2vw;
+    margin-bottom: 5%;
+    background-color: #31FFAF;
     width: 45%;
-    margin-left: 6.3vw;
+}
+.egbox4{
+    width: 45%;
+    flex-wrap: wrap;
+    display: flex;
+}
+.egbox4 img{
+    margin-bottom:10% ;
+    flex-wrap: wrap;
+    display: flex;
+    width: 30vw;
+    margin-left: 8vw;
+    border: #575ec1 solid 5px;
 }
 .header1{
     opacity: .9;
     color: #46f9b4;
     background-image: url(/images/hero1.jpg);
+    text-align: center;
+    padding: 15%;
+    height: 45vh;
+    background-position: center;
+    background-size: cover;
+    font-size: 5vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: #7C5EB5 10px 10px 25px;
+}
+.eghero{
+    background-image: url(/images/writinghero.jpg);
+    opacity: .9;
+    color: #46f9b4;
     text-align: center;
     padding: 15%;
     height: 45vh;
@@ -173,7 +211,19 @@ height: 40%;
     justify-content: space-between;
     margin-top: 5%;
 }
+.egdoors{
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
 .doors img{
+    border: #46f9b4 solid 5px;
+    width: 13vw;
+    height: 50vh;
+}
+.egdoors img{
     border: #46f9b4 solid 5px;
     width: 13vw;
     height: 50vh;
