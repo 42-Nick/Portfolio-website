@@ -39,6 +39,7 @@ body{
     width: 30vw;
     margin-left: 8vw;
     margin-bottom:10%;
+    border: solid #575ec1 2px;
 }
 .ibox3{
     font-size: 4vh;
@@ -64,6 +65,7 @@ height: 40%;
     display: flex;
     width: 30vw;
     margin-left: 8vw;
+    border: solid #575ec1 2px;
 }
 .ibox5{
     width: 45vw;
@@ -89,6 +91,7 @@ height: 40%;
     display: flex;
     width: 30vw;
     margin-left: 8vw;
+    border: solid #575ec1 2px;
 }
 .englishboxes{
         flex-wrap: wrap;
@@ -144,7 +147,7 @@ height: 40%;
     border: #575ec1 solid 3px;
 }
 .w1box1{
-   font-size: 3.5vh;
+   font-size: 3vh;
    padding-left: 3vw;
    padding-right: 2vw;
    margin-bottom: 5%;
@@ -152,8 +155,10 @@ height: 40%;
    width: 45%;
 }
 .w11-2{
+    margin-top:5% ;
     display: flex;
     flex-wrap: wrap;
+    height: 40%;
 }
 .w1box2{
     width: 45%;
@@ -161,39 +166,146 @@ height: 40%;
     display: flex;
 }
 .w1box2 img{
+    width: 35vw;
     margin-bottom:10% ;
     flex-wrap: wrap;
     display: flex;
-    width: 81%;
-    margin-left: 8vw;
+    margin-left: 19%;
     border: #575ec1 solid 5px;
 }
 .w13-4{
     display: flex;
     flex-wrap: wrap;
+    height: 40%;
 }
-.w1box4{
-   font-size: 3.5vh;
+.w1box3{
+   font-size: 2.5vh;
    padding-left: 3vw;
    padding-right: 2vw;
    margin-bottom: 5%;
    background-color: #31FFAF;
    width: 45%;
 }
-.w1box3{
+.w1box4{
     width: 45%;
     flex-wrap: wrap;
     display: flex;
 }
-.w1box3 img{
+.w1box4 img{
+    width: 35vw;
+    margin-bottom:10% ;
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: 19%;
+    border: #575ec1 solid 5px;
+}
+.w2box1{
+    font-size: 2.5vh;
+    padding-left: 3vw;
+    padding-right: 2vw;
+    margin-bottom: 5%;
+    background-color: #31FFAF;
+    width: 45%;
+ }
+ .w21-2{
+     margin-top:5% ;
+     display: flex;
+     flex-wrap: wrap;
+     height: 40%;
+ }
+ .w2box2{
+     width: 45%;
+     flex-wrap: wrap;
+     display: flex;
+ }
+ .w2box2 img{
+     width: 35vw;
+     margin-bottom:10% ;
+     flex-wrap: wrap;
+     display: flex;
+     margin-left: 19%;
+     border: #575ec1 solid 3px;
+ }
+ .w23-4{
+     display: flex;
+     flex-wrap: wrap;
+     height: 40%;
+ }
+ .w2box3{
+    font-size: 2.5vh;
+    padding-left: 3vw;
+    padding-right: 2vw;
+    margin-bottom: 5%;
+    background-color: #31FFAF;
+    width: 45%;
+}
+.w2box4{
+    width: 45%;
+    flex-wrap: wrap;
+    display: flex;
+}
+.w2box4 img{
+    margin-bottom:10% ;
+    flex-wrap: wrap;
+    display: flex;
+    width: 35vw;
+    margin-left: 19%;
+    border: #575ec1 solid 3px;
+}
+.pbox1{
+    padding-top: 1%;
+    font-size: 3.6vh;
+    padding-left: 3%;
+    padding-right: 2%;
+    margin-bottom: 5%;
+    background-color: #31FFAF;
+    width: 45%;
+}
+.p1-2{
+    margin-top: 5%;
+    display: flex;
+    height: 40%;
+}
+.pbox2{
+    width: 45%;   
+    flex-wrap: wrap;
+    display: flex;
+}
+.pbox2 img{
     margin-bottom:10% ;
     flex-wrap: wrap;
     display: flex;
     width: 30vw;
-    margin-left: 8vw;
-    border: #575ec1 solid 5px;
+    margin-left: 34.5%;
+    border: #575ec1 solid 3px;
+}
+.p3-4{
+    display: flex;
+    height: 40%;
+}
+.pbox3{
+    font-size: 4vh;
+    padding-left: 3%;
+    padding-right: 2%;
+    margin-bottom: 5%;
+    background-color: #31FFAF;
+    width: 45%;
+}
+.pbox4{
+    width: 45%;
+    flex-wrap: wrap;
+    display: flex;
+}
+.pbox4 img{
+    margin-bottom:10% ;
+    flex-wrap: wrap;
+    display: flex;
+    width: 30vw;
+    margin-left: 34.5%;
+    border: #575ec1 solid 3px;
 }
 .header1{
+    background-attachment: fixed;
     opacity: .9;
     color: #46f9b4;
     background-image: url(/images/hero1.jpg);
@@ -206,7 +318,52 @@ height: 40%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-shadow: #7C5EB5 10px 10px 25px;
 }
+.herotext{
+    background-color: rgba(0,0,0,0.3);}
+.rhero{
+    background-attachment: fixed;
+    background-image: url(/images/resumehero.jpg);
+    opacity: .9;
+    color: #46f9b4;
+    text-align: center;
+    padding: 15%;
+    height: 45vh;
+    background-position: center;
+    background-size: cover;
+    font-size: 5vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: #7C5EB5 10px 10px 25px;
+}
+.w2hero{
+    background-attachment: fixed;
+    background-image: url(/images/web2hero.jpg);
+    opacity: .9;
+    color: #46f9b4;
+    text-align: center;
+    padding: 15%;
+    height: 45vh;
+    background-position: center;
+    background-size: cover;
+    font-size: 15vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 10px 10px 25px;
+}
+.phero{
+    background-attachment: fixed;
+    background-image: url(/images/pehero.jpg);
+    opacity: .9;
+    color: #46f9b4;
+    text-align: center;
+    padding: 15%;
+    height: 45vh;
+    background-position: center;
+    background-size: cover;
+    font-size: 5vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: #7C5EB5 10px 10px 25px;
+}
 .eghero{
+    background-attachment: fixed;
     background-image: url(/images/writinghero.jpg);
     opacity: .9;
     color: #46f9b4;
@@ -220,6 +377,7 @@ height: 40%;
     text-shadow: #7C5EB5 10px 10px 25px;
 }
 .w1hero{
+    background-attachment: fixed;
     background-image: url(/images/web1hero.jpg);
     opacity: .9;
     color: #46f9b4;
