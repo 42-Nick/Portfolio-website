@@ -211,16 +211,18 @@ height: 40%;
     padding-right: 2vw;
     margin-bottom: 5%;
     background-color: #31FFAF;
-    width: 45%;
+    width: 42%;
  }
  .e1-2{
      margin-top:5% ;
      display: flex;
      flex-wrap: wrap;
      height: 40%;
+     justify-content: space-between;
+
  }
  .ebox2{
-     width: 45%;
+     width: 42%;
      flex-wrap: wrap;
      display: flex;
  }
@@ -236,6 +238,7 @@ height: 40%;
      display: flex;
      flex-wrap: wrap;
      height: 40%;
+     justify-content: space-between;
  }
  .ebox3{
     font-size: 3.5vh;
@@ -243,15 +246,15 @@ height: 40%;
     padding-right: 2vw;
     margin-bottom: 5%;
     background-color: #31FFAF;
-    width: 45%;
+    width: 42%;
  }
  .ebox4{
-     width: 45%;
+     width: 42%;
      flex-wrap: wrap;
      display: flex;
  }
  .ebox4 img{
-     width: 35vw;
+     width: 29vw;
      margin-bottom:10% ;
      flex-wrap: wrap;
      display: flex;
