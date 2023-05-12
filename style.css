@@ -2,6 +2,15 @@ body{
     background-color: black;   
     margin: 0%;
 }
+*{
+    cursor: none;
+}
+p:hover{
+    cursor: default;
+}
+img:hover{
+    cursor: default;
+}
 #particles-js{
      z-index: -1;
     position: fixed;
@@ -123,7 +132,7 @@ height: 40%;
     display: flex;
     width: 35vw;
     margin-left: 21%;
-    border: #575ec1 solid 3px;
+    border: solid #575ec1 2px;
 }
 .egbox3{
     font-size: 3vh;
@@ -144,7 +153,7 @@ height: 40%;
     display: flex;
     width: 35vw;
     margin-left: 21%;
-    border: #575ec1 solid 3px;
+    border: solid #575ec1 2px;
 }
 .aboutboxes{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -174,8 +183,8 @@ height: 40%;
      flex-wrap: wrap;
      display: flex;
      margin-left: 19%;
-     border: #575ec1 solid 5px;
- }
+     border: solid #575ec1 2px;
+    }
  .a3-4{
      display: flex;
      flex-wrap: wrap;
@@ -200,8 +209,8 @@ height: 40%;
      flex-wrap: wrap;
      display: flex;
      margin-left: 19%;
-     border: #575ec1 solid 5px;
- }
+     border: solid #575ec1 2px;
+    }
  .endboxes{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  }
@@ -232,8 +241,8 @@ height: 40%;
      flex-wrap: wrap;
      display: flex;
      margin-left: 19%;
-     border: #575ec1 solid 5px;
- }
+     border: solid #575ec1 2px;
+    }
  .e3-4{
      display: flex;
      flex-wrap: wrap;
@@ -259,8 +268,8 @@ height: 40%;
      flex-wrap: wrap;
      display: flex;
      margin-left: 19%;
-     border: #575ec1 solid 5px;
- }
+     border: solid #575ec1 2px;
+    }
  .ebox5{
     font-size: 3.5vh;
     padding-top: 1%;
@@ -308,7 +317,7 @@ height: 40%;
     flex-wrap: wrap;
     display: flex;
     margin-left: 19%;
-    border: #575ec1 solid 5px;
+    border: solid #575ec1 2px;
 }
 .w13-4{
     display: flex;
@@ -334,7 +343,7 @@ height: 40%;
     flex-wrap: wrap;
     display: flex;
     margin-left: 19%;
-    border: #575ec1 solid 5px;
+    border: solid #575ec1 2px;
 }
 .web2boxes{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -364,8 +373,8 @@ height: 40%;
      flex-wrap: wrap;
      display: flex;
      margin-left: 19%;
-     border: #575ec1 solid 3px;
- }
+     border: solid #575ec1 2px;
+    }
  .w23-4{
      display: flex;
      flex-wrap: wrap;
@@ -390,8 +399,38 @@ height: 40%;
     display: flex;
     width: 35vw;
     margin-left: 19%;
-    border: #575ec1 solid 3px;
+    border: solid #575ec1 2px;
 }
+.resboxes{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+}
+.rbox1{
+    font-size: 4vh;
+    padding-left: 3vw;
+    padding-right: 2vw;
+    margin-bottom: 5%;
+    background-color: #31FFAF;
+    width: 45%;
+ }
+ .r1-2{
+     margin-top:5% ;
+     display: flex;
+     flex-wrap: wrap;
+     height: 40%;
+ }
+ .rbox2{
+     width: 45%;
+     flex-wrap: wrap;
+     display: flex;
+ }
+ .rbox2 img{
+     width: 35vw;
+     margin-bottom:10% ;
+     flex-wrap: wrap;
+     display: flex;
+     margin-left: 19%;
+     border: solid #575ec1 2px;
+    }
 .personalboxes{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -419,7 +458,7 @@ height: 40%;
     height: 100%;
     width: 100%;
     margin-bottom:10% ;
-    border: #575ec1 solid 3px;
+    border: solid #575ec1 2px;
     object-fit: cover;
 }.pbox3{
     padding-top: 1%;
@@ -445,7 +484,7 @@ height: 40%;
     height: 100%;
     width: 100%;
     margin-bottom:10% ;
-    border: #575ec1 solid 3px;
+    border: solid #575ec1 2px;
     object-fit: cover;
 }
 
@@ -609,11 +648,7 @@ height: 40%;
     width: 13vw;
     height: 50vh;
 }
-.egdoors img{
-    border: #46f9b4 solid 5px;
-    width: 13vw;
-    height: 50vh;
-}
+
 .all{
     width: 87.5%;
     margin-left: 6.25%;
