@@ -11,6 +11,12 @@ p:hover{
 img:hover{
     cursor: default;
 }
+a:hover{
+    cursor: pointer;
+}
+h2:hover{
+    cursor: default;
+}
 #particles-js{
      z-index: -1;
     position: fixed;
@@ -317,6 +323,7 @@ height: 40%;
     flex-wrap: wrap;
     display: flex;
     margin-left: 19%;
+    object-fit: fill;
     border: solid #575ec1 2px;
 }
 .w13-4{
@@ -344,6 +351,7 @@ height: 40%;
     display: flex;
     margin-left: 19%;
     border: solid #575ec1 2px;
+    object-fit: fill;
 }
 .web2boxes{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -374,6 +382,7 @@ height: 40%;
      display: flex;
      margin-left: 19%;
      border: solid #575ec1 2px;
+     object-fit: fill;
     }
  .w23-4{
      display: flex;
@@ -400,6 +409,7 @@ height: 40%;
     width: 35vw;
     margin-left: 19%;
     border: solid #575ec1 2px;
+    object-fit: fill;
 }
 .resboxes{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
@@ -430,6 +440,7 @@ height: 40%;
      display: flex;
      margin-left: 19%;
      border: solid #575ec1 2px;
+     object-fit: fill;
     }
 .personalboxes{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -459,7 +470,7 @@ height: 40%;
     width: 100%;
     margin-bottom:10% ;
     border: solid #575ec1 2px;
-    object-fit: cover;
+    object-fit: fill;
 }.pbox3{
     padding-top: 1%;
     font-size: 4.5vh;
@@ -485,7 +496,7 @@ height: 40%;
     width: 100%;
     margin-bottom:10% ;
     border: solid #575ec1 2px;
-    object-fit: cover;
+    object-fit:fill;
 }
 
 .header1{
